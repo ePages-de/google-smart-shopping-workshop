@@ -4,7 +4,7 @@ title = "Smart Shopping"
 theme = "workshop-materials"
 defaultContentLanguage = "de"
 
-[params]
+[params
   subject = "Smart Shopping"
   feedbackLink = "mailto:info@epages.com"
   feedbackIcon = "fas fa-hands-helping"
