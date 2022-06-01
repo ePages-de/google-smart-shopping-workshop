@@ -15,7 +15,6 @@
   }
 }
 
-
 /* The sidebar menu */
 #toc {
  height: 100%;
@@ -119,11 +118,7 @@
   display: block;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  z-index: 100;
-}
+
 
 #feedback {
   position: fixed;
@@ -163,7 +158,6 @@ div.callout p:nth-of-type(2)::before {
   margin-bottom: 20px;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
 blockquote{
   font-size: 1.1em;
   margin:50px auto;
@@ -196,4 +190,42 @@ blockquote a{
   font-style: normal;
   font-weight: bold;
   margin-top:1em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  z-index: 100;
+  border: 6px solid #555;
+  margin-bottom: 40px;
+}
+
+.callout img {
+  margin-bottom: 0px;
+}
+
+.callout {
+  margin-bottom: 40px;
+}
+
+#content .card-body {
+    font-size: 18px ;
+}
+
+#content .card {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+
+    border-width: 2px !important;
+}
+
+button, a#finish {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+body {
+  background: #E8E8E8 !important;
 }
